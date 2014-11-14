@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="#ffffff"
+         android:orientation="vertical">
+ <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/b2" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:text="Book Domestic and International Hotels"
+            android:textColor="#2E8B57"
+            android:textStyle="bold" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#2E8B57"
+            android:text="You want to go to"
+            android:textStyle="bold" />
+        
+          <Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/Hotel_array"
+             android:prompt="@string/Hotel_prompt"   />
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Check-in"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" />
+         <DatePicker
+             android:id="@+id/datePicker1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="No. of Nights"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" />
+         <Spinner
+             android:id="@+id/spinner2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/no_array"
+             android:prompt="@string/no_prompt"   />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Check-out"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" />
+         <DatePicker
+             android:id="@+id/datePicker2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Room(s)"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" />
+         <Spinner
+             android:id="@+id/spinner3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/room_array"
+             android:prompt="@string/room_prompt"   />
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Adult(12+ yrs)"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" /> 
+            <Spinner
+             android:id="@+id/spinner4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/adult_array"
+             android:prompt="@string/adult_prompt"   />
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Children(0-12 yrs)"
+            android:textColor="#2E8B57"
+             android:textStyle="bold" /> 
+            <Spinner
+             android:id="@+id/spinner5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:entries="@array/child_array"
+             android:prompt="@string/child_prompt"/>     
+     	<Button
+     	  	android:id="@+id/search"
+       		android:layout_width="260dp"
+       		android:layout_height="40dp"
+       		android:text="Search"
+       		android:textColor="#FFFFFF"
+       		android:textStyle="bold"
+       		android:layout_marginTop="20dp"
+       		android:layout_gravity="center"
+       		android:background="@drawable/button_dashboard"/>
+    
+ </LinearLayout>
+ </ScrollView>

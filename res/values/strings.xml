@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hotel Booking</string>
+    <string name="viv">Hotel Viventa</string>
+    <string name="search">Search Hotels</string>
+    <string name="hotel">Hotel Reservation</string>
+    <string name="five">five Star Hotels</string>
+     <string name="four">four Star Hotels</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+     <string name="Hotel_prompt">Region, City, Area or Hotel Name(Worldwide)</string>
+     <string-array name="Hotel_array">
+        <item>Goa</item>
+        <item>New Delhi And NCR</item>
+        <item>Mumbai</item>
+        <item>Bangalore</item>
+        <item>Jaipur</item>
+        <item>Chennai</item>
+        <item>Pondicherry</item>
+        <item>Agra</item>
+        <item>Ahmedabad</item>
+        <item>Amritsar</item>
+        <item>Bikaner</item>
+        <item>Chandigarh</item>
+    </string-array>
+    <string name="no_prompt"></string>
+     <string-array name="no_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+         <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+    <string name="room_prompt"></string>
+     <string-array name="room_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        </string-array>
+    
+ <string name="adult_prompt"></string>
+     <string-array name="adult_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        </string-array>
+        <string name="child_prompt"></string>
+     <string-array name="child_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        </string-array>
+       
+</resources>

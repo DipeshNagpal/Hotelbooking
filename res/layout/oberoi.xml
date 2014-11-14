@@ -1,0 +1,76 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#ffffff">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/obe" />
+   <Button
+       android:id="@+id/o1"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="30dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Visit Website"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+   <Button
+       android:id="@+id/o2"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from India"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+     <Button
+         android:id="@+id/o3"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from UK"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+       <Button
+           android:id="@+id/o4"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from South-East Asia and China"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+        <Button
+             android:id="@+id/o5"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from USA"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+       
+      
+       
+</LinearLayout>    
+    
+    
+    
+</ScrollView>
