@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="basilsoft.android.hotelbooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="basilsoft.android.hotelbooking.H1Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="basilsoft.android.hotelbooking.H2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.H2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.H6"
+            android:label="@string/search" >
+            <intent-filter>
+                <action android:name="android.intent.action.H6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+	 <activity
+            android:name="basilsoft.android.hotelbooking.H8"
+            android:label="@string/hotel" >
+            <intent-filter>
+                <action android:name="android.intent.action.H8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.Fivestar"
+            android:label="@string/five" >
+            <intent-filter>
+                <action android:name="android.intent.action.fivestar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name="basilsoft.android.hotelbooking.Viventa"
+            android:label="@string/viv" >
+            <intent-filter>
+                <action android:name="android.intent.action.viventa" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="basilsoft.android.hotelbooking.Hyatt"
+            android:label="Hyatt" >
+            <intent-filter>
+                <action android:name="android.intent.action.hyatt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.Lalit"
+            android:label="The Lalit" >
+            <intent-filter>
+                <action android:name="android.intent.action.lalit" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.Lodhi"
+            android:label="The Lodhi" >
+            <intent-filter>
+                <action android:name="android.intent.action.lodhi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.Leela"
+            android:label="Leela" >
+            <intent-filter>
+                <action android:name="android.intent.action.leela" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="basilsoft.android.hotelbooking.Taj"
+            android:label="Taj" >
+            <intent-filter>
+                <action android:name="android.intent.action.taj" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="basilsoft.android.hotelbooking.Grand"
+            android:label="Grand Hotel" >
+            <intent-filter>
+                <action android:name="android.intent.action.grand" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="basilsoft.android.hotelbooking.Oberoi"
+            android:label="Oberoi Hotel" >
+            <intent-filter>
+                <action android:name="android.intent.action.oberoi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="basilsoft.android.hotelbooking.Fourstar"
+            android:label="@string/four" >
+            <intent-filter>
+                <action android:name="android.intent.action.fourstar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+    </application>
+</manifest>

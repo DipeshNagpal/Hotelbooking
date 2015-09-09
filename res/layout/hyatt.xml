@@ -1,0 +1,203 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/hy" />
+   <Button
+       android:id="@+id/h1"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="30dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Visit Website"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+   <Button
+       android:id="@+id/h2"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Argentina"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+     <Button
+         android:id="@+id/h3"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Brazil"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+       <Button
+           android:id="@+id/h4"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Columbia"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+        <Button
+             android:id="@+id/h5"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Costa Rica"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+       
+       <Button
+             android:id="@+id/h6"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Mexico"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+        <Button
+             android:id="@+id/h7"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from USA/CANADA"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+         <Button
+             android:id="@+id/h8"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Australia"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+          <Button
+             android:id="@+id/h9"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Hong Kong"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+           <Button
+             android:id="@+id/h10"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from India"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+            <Button
+             android:id="@+id/h11"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Japan"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+             <Button
+             android:id="@+id/h12"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Korea"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+              <Button
+             android:id="@+id/h13"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Malaysia"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+               <Button
+             android:id="@+id/h14"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from New Zealand"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+                <Button
+             android:id="@+id/h15"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Norway"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+                 <Button
+             android:id="@+id/h16"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from China"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+          <Button
+             android:id="@+id/h17"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Singapore"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+           <Button
+             android:id="@+id/h18"
+       android:layout_width="260dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_dashboard"
+       android:text="Call from Germany"
+       android:layout_gravity="center"
+       android:textColor="#ffffff"
+       android:textStyle="bold"/>
+</LinearLayout>    
+    
+    
+    
+</ScrollView>
